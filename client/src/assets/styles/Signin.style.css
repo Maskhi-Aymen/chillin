@@ -1,0 +1,251 @@
+.second-div
+{
+    display: flex ;
+    justify-content: center;
+}
+.auth-card
+{
+    text-align: center;
+    max-width: 450px;
+    margin-left: -15px;
+    margin-top: 35px ;
+    border-radius: 12px !important;
+    opacity: 100%;
+    height: 560px;
+}
+.login_logo{
+    height:300px; 
+    width:500px;
+    margin-top: 10%;
+    text-shadow: #ffff 4px;
+}
+.input-input-Mod1
+{
+    margin-left: 20px;
+    margin-right: auto;
+    width: 300px ;
+    border: none;
+    border-bottom: 2px solid #369579;
+    margin-top: 20px ;
+}
+.input-input-Mod2
+{
+    margin-left: 20px;
+    margin-right: auto;
+    width: 300px ;
+    border: none;
+    border-bottom: 2px solid #369579;
+    margin-top: 20px ;
+}
+input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+}
+.auth-card1
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px ;
+    border-radius: 12px !important;
+    justify-content: center;
+    margin-top: 50px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+}
+
+.auth-card112
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px ;
+    border-radius: 12px !important;
+    justify-content: center;
+    margin-top: 50px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+}
+.input-Mod3
+{
+    margin-left: 30px;
+    width: 300px ;
+    border: none;
+    border-bottom: 2px solid #369579;
+}
+.input-Mod4
+{
+
+    margin-left: 10px !important;
+    margin-right: auto !important;
+    width: 300px ;
+    border: none;
+    border-bottom: 2px solid #369579;
+}
+.photo-Mod
+{
+    max-width: 450px ;
+    margin-top: 35px;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    max-width: 450px;
+    border-top-right-radius: 0px ;
+    border-bottom-right-radius: 0px ;
+    max-height: 560px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+
+
+}
+.logo-Mod
+{
+    width: 290px;
+    margin: 30px auto ;
+    margin-bottom: 50px ;
+}
+.waves-effect12
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+
+    margin: 30px auto ;
+    background-color: #369579; 
+    color: white;
+    transition-duration: 0.4s;
+
+}
+.waves-effect12:hover
+{
+    background-color: white;
+    color: black;
+    border: 3px solid #369579; 
+    
+}
+.loading1
+{
+    margin: auto auto ;
+}
+.waves-effect505
+{
+    width: 350px !important;
+    height: 70px !important;
+    border-radius: 10px;
+    margin: 30px auto ;
+    transition-duration: 0.4s;
+}
+.waves-effect:hover
+{
+    background-color: white;
+    
+    
+}
+.waves-effect503
+{
+    width: 350px !important;
+    height: 70px !important;
+    border-radius: 10px;
+    margin: 30px auto ;
+    transition-duration: 0.4s;
+    border: 2px #F4ACB2 solid ;
+    color:#F4ACB2;
+}
+
+.navbaricon{
+    width: 30px !important;
+    height: 30px !important;
+}
+.navbaricon:hover{
+    box-shadow: 1px 1px 1px #FFCAD4;
+    transform: translateY(1px);
+}
+
+
+@media (max-width:900px) {
+    .login_logo{
+        height:150px; 
+        width:200px;
+        margin-top: 10%;
+        text-shadow: #ffff 4px;
+    }
+    .login_container{
+        width: 80%;
+        height: 100%;
+
+    }
+    .second-div
+    {
+        display: inline;
+        justify-content: center;
+        
+    }
+    .auth-card
+    {
+        text-align: center;
+        max-width: 300px;
+        margin-left: 0px;
+        border-radius: 10px ;
+        opacity: 100%;
+        margin-top: -320px ;
+        max-height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .navbaricon{
+        width: 24px !important;
+        height: 24px !important;
+    }
+    .photo-Mod
+    {
+        margin-left: auto!important;
+        margin-right: auto !important;
+        max-height: 450px;
+        max-width: 300px !important;
+        margin-top: 30px;
+        border-top-left-radius: 10px ;
+        border-bottom-left-radius: 0px ;
+        border-top-right-radius: 10px ;
+        border-bottom-right-radius: 0px ;
+        box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+        opacity: 0%;
+        
+
+    }
+    .waves-effect505
+    {
+
+        max-width: 300px;
+        border-radius: 10%;
+        height: 30px;
+        margin-top: 30px ;
+    }
+    .waves-effect503
+    {
+
+        max-width: 300px;
+        border-radius: 10%;
+        height: 30px;
+        margin-top: 30px ;
+    }
+
+
+    .auth-card112
+    {
+        max-width: 300px !important;
+        margin: auto auto ;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    .logo-Mod
+    {
+        width: 250px;
+        margin: 20px auto ;
+        margin-bottom: 50px ;
+    }
+    .input-Mod1
+    {
+        width: 200px ;
+
+    }
+    .input-Mod2
+    {
+        margin-top: -20px;
+        width: 200px ;
+    }
+  
+}

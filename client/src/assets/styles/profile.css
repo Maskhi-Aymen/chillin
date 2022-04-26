@@ -1,0 +1,271 @@
+.PagePhotoProfile{
+    height: 50vh;
+    background-color: #FFE5D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;margin: auto;width: 99%;
+  
+  } 
+  .ContainerPhotoProfile{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #f7dfd4;
+    
+  }
+  .headingPhoto{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+  
+  }
+  .img-holderPhoto{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 3px black solid;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  .imgPhotoProfile{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  #input[type="file"] {
+      display: none;
+  }
+  .label{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .image-upload{
+    margin: auto;
+
+    color: white;
+    border-radius: 100px;
+    background-color: #9D8189;
+    text-align: center;
+    cursor: pointer;
+  }
+  .header-h1{
+    color: #F4ACB7;
+    background-color: transparent; 
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    /* border-style: solid; */
+    margin:auto;
+    /* border-radius: 15px; */
+    margin: 50px;
+    
+
+}
+
+.label_profile{
+color: #F4ACB7;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:xx-large;
+
+}
+hr{
+    background-color: #F4ACB7;
+    width: 100%;
+}
+
+.navbar{
+    background-color:#F4ACB7;
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 18px; 
+    text-align: center;
+    width: 95%;
+    position: sticky;
+    margin: auto;
+    top:0;
+    z-index: 1;
+}
+
+
+.container-about{
+    width: 100%;
+	background-color: #FFE5D9;
+	margin: auto;
+	opacity: 0.8;
+	margin-top: 22px;
+}
+
+@media screen and (max-width:500px){
+    .navbar{
+  
+        border-radius: 15px;
+        border-style: hidden;
+        padding: 0px; 
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        padding-bottom: 14px;
+        
+     }
+     #protofolio-link{
+        padding-right: 5px;
+    }
+    .navbar a{
+        color: rgb(27, 22, 22);
+        text-decoration: none;
+        padding-inline: 15%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-size: 17px;
+        
+      
+    }
+    .navbar a:hover{
+
+        border-style: hidden;
+        border-radius: 5px;
+
+    }
+
+
+}
+@media screen and (max-width:350px){
+
+    .navbar {
+
+        text-decoration: none;
+        padding: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        
+      }
+      
+
+}
+
+.container-banner{
+
+    text-align: center;
+    border-style: hidden;
+    border-radius: 15px;
+    font-family: 'Ruda', sans-serif;
+}
+
+#profilepic{
+    border-radius: 85px;
+    padding-top: 7px;
+}
+
+.container-about{
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 18px; 
+    text-align: center;
+}
+
+.container-about>p{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+  
+
+}
+.container-about>h1{
+    font-family: 'Ruda', sans-serif;
+}
+
+.flex-project-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.flex-project-container>div{
+    background-color: #f1f1f1;
+    width: 150px;
+    height: 150px;;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-style: hidden;
+    border-radius: 30px;
+}
+
+.flex-project-container img{
+    margin-top: 27px;
+    border-radius: 55px;
+}
+
+.flex-project-container > div:hover
+{
+transform: scale(1.1);
+
+}
+.button-profile{
+    border: #9D8189 2px solid;
+    color: #9D8189;
+    background-color: transparent;
+    width: 120px;
+    height: 50px;
+    font-size:medium;
+}
+.projects{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 18px; 
+    text-align: center;
+    
+}
+.projects h1{
+    font-family: 'Ruda', sans-serif;
+}
+
+.projects p{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
+
+
+#contactimg{
+    border-style: hidden;
+    background-color: #f1f1f1;
+    border-radius: 90px;
+}
+
+span:hover{
+    text-decoration: none;
+    
+    
+}
+
+#mail{
+    text-decoration: none;
+    color: white;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#mailmelogo{
+    border-style: hidden;
+    border-radius:5px;
+    width:15px;
+    height:15px;
+    
+}
+      

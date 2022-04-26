@@ -1,0 +1,42 @@
+.newPublication {
+  flex: 4;
+  background-color: #FFE5D9 ;
+  opacity: 0.8;
+}
+
+.addPublicationForm {
+  margin-top: 10px;
+}
+
+.addPublicationItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.addPublicationItem > label {
+  color: #F4ACB7;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addPublicationItem > input {
+  padding: 10px;
+}
+
+.addPublicationItem > select {
+  padding: 10px;
+}
+
+.addPublicationButton {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #FFCAD4
+  ;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}

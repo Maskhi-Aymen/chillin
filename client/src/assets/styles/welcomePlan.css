@@ -1,0 +1,87 @@
+.containerPlan{
+	display: grid;
+	align-content: start;
+	grid-template-columns: auto auto auto auto;
+	gap: 10px;
+	padding: 20px;
+}
+.containerMusic{
+ 
+	display: grid;
+	align-content: start;
+	grid-template-columns: auto auto auto;
+	gap: 30px;
+	padding: 20px;
+	
+}
+
+.titleSong{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+	color: #FFCAD4;
+}
+.test2:hover{
+	box-shadow: 0px 15px 20px #FFCAD4;
+	transform: translateY(-7px);
+}
+.navbotton{
+
+	min-width: 80%;
+    margin-left: 4px;
+    justify-content:end;
+	flex: auto;
+	
+}
+
+.notification-icon{
+width: 34px;
+height: 40px;
+    margin: auto;
+
+    margin-left: 4px;
+    justify-content:end;
+}
+.containerPublication{
+max-width: 600px;
+margin: auto;
+justify-content: space-between;
+margin-top: 10px;
+margin-bottom: 10px;
+
+	
+}
+.loading{
+	margin: auto;
+	margin-top: 250px;
+	
+}
+.meditate-img{
+	max-width: 500px;
+	max-height: 500px;
+}
+@media (max-width:900px) {
+	.meditate-img{
+		max-width: 300px;
+		max-height: 300px;
+		margin: auto;
+	}
+	.navbotton{
+		width: 6%;
+		display: flex;
+	
+		justify-content: center;
+		float: right;
+	}
+	.containerPublication{
+		max-width: 300px;
+			
+		}
+.containerMusic{
+ 
+	display:contents;
+	gap: 30px;
+		}
+.containerPlan{
+	display:contents;
+	gap: 30px;
+		}
+}
